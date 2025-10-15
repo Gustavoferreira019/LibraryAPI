@@ -13,6 +13,7 @@ Ele serve como um laboratório de experimentação, onde são exploradas boas pr
 - H2 Database  
 - Lombok  
 - Postman (para testes das requisições)
+- Swagger
 
 ---
 
@@ -51,6 +52,8 @@ O foco principal está em consolidar conhecimentos de backend com Java e Spring,
 A API estará disponível em: http://localhost:8080
 
 Para acessar o console do banco de dados H2, utilize: http://localhost:8080/h2-console
+
+Para acessar a documentação das APIs: http://localhost:8080/swagger-ui/index.html
 
 JDBC URL:
       jdbc:h2:mem:library
