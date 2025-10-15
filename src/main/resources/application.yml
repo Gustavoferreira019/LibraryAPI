@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: libraryApi
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  datasource:
+      url: jdbc:mysql://localhost:5432/library
+      username: root
+      password: root123
+      driver-class-name: com.mysql.cj.jdbc.Driver
